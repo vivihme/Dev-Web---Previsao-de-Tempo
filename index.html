@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Para o Google encontrar -->
+    <meta name="keywords" content="previsão, tempo, previsão do tempo, forecast, weather,
+    weather forecast, pronóstico, tiempo, pronóstico del tiempo">
+    <!-- Importação de fonte Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- Importação do arquivo CSS -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- Importação do arquivo JS -->
+     <script src="./script.js"></script>
+    <title>Previsão do Tempo</title>
+</head>
+
+<body>
+    <div class="caixa-maior">
+        <input class="input-cidade" placeholder="Digite o nome da cidade">
+        <button class="botao-busca" onclick="cliqueiNoBotao()">
+            <img class="imagem-busca" alt="ícone de busca (lupa)" src="https://www.svgrepo.com/show/488200/find.svg">
+        </button>
+        <div class="caixa-media">
+            <h2 class="cidade">Tempo em</h2>
+            <p class="temperatura">ºC</p>
+            <div class="caixa-menor">
+                <div class="previsao">
+                    <img class="imagem-previsao" alt="ícone de uma pequena nuvem/informação do tempo" src="https://openweathermap.org/img/wn/04n.png">
+                    <p class="texto-previsao"></p>
+                </div>
+                <p class="texto-umidade">%</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

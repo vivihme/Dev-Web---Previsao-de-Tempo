@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./paisagem-natural.jpg");
+}
+.caixa-maior{
+    background: #000000;
+    opacity: 0.85;
+    border-radius: 25px;
+    padding: 25px;
+    width: 95%;
+    max-width: 450px;
+}
+.input-cidade{
+    border: none; /* borda do elemento */
+    outline: none; /* borda quando seleciona o elemento */
+    padding: 10px; /* espaçamento interno */
+    border-radius: 25px; /* arredonda as bordas */
+    font-size: 20px;
+    background-color: #fbfbf8;
+    color: #000;
+    width: calc(100% - 70px);
+}
+.input-cidade:hover{
+    background-color: #d3d3d3;
+}
+.botao-busca{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #fbfbfb;
+    cursor: pointer;
+    float: right;
+}
+.botao-busca:hover{
+    background-color: #d3d3d3;
+}
+.imagem-busca{
+    width: 20px;
+}
+.caixa-media{
+    margin-top: 30px;
+}
+.cidade{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.temperatura{
+    font-size: 20px;
+    color: #fff;
+    margin-top: 20px;
+}
+.caixa-menor{
+    display: flex;
+    flex-direction: column; /* Alinha os elementos em coluna */
+    align-items: flex-start; /* Alinha à esquerda */
+    margin-top: 30px;
+}
+.previsao{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.imagem-previsao{
+    width: 30px;
+    height: 30px;
+}
+.texto-previsao{
+    color: #fff;
+    margin-left: 10px; /* Espaço entre a nuvem e o texto "Nublado" */
+    text-transform: capitalize; /* Deixa a primeira letra maiúscula */
+    font-size: 20px;
+}
+.texto-umidade{
+    color: #fff;
+    margin-top: 0px;
+    font-size: 20px;
+}
